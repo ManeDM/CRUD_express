@@ -38,9 +38,9 @@ router.get('/movies/:id', (req, res) => {
 //UPDATE A MOVIE 
 router.put('/movies/:id', (req, res) => {
     const { id } = req.params;
-    const { title, year, mov_time, mov_lang, mov_dt_rel, mov_rel_country } = req.body;
+    const { mov_id, title, year, mov_time, mov_lang, mov_dt_rel, mov_rel_country } = req.body;
     moviesSchema
-        .updateOne({_id: id}, {$set: {title, year, mov_time, mov_lang, mov_dt_rel, mov_rel_country} })
+        .updateOne({_id: id}, {$set: {mov_id, title, year, mov_time, mov_lang, mov_dt_rel, mov_rel_country} })
         .then((data) => res.json(data))
         .catch((error) => res.json({ message: error}))
 

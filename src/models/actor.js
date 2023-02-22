@@ -1,6 +1,11 @@
 const mongoose = require('mongoose');
 
 const actorSchema = mongoose.Schema({
+    act_id:{
+        type: Number,
+        required: true
+    },
+
     act_fname: {
         type: String,
         required: true
