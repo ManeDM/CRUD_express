@@ -47,14 +47,19 @@ router.put('/movies/:id', (req, res) => {
 })
 
 //DELETE A MOVIE 
-router.delete('/movies/:id', (req, res) => {
+router.delete('/movies/:id', async (req, res) => {
     const { id } = req.params;
-    moviesSchema
-        .remove({_id: id})
-        .then((data) => res.json(data))
-        .catch((error) => res.json({ message: error}))
-
-})
+    try {
+      const result = await moviesSchema.deleteOne({ _id: id });
+      if (result.deletedCount === 0) {
+        res.status(404).json({ message: 'No se encontró el usuario' });
+      } else {
+        res.status(200).json({ message: 'El usuario ha sido eliminado' });
+      }
+    } catch (error) {
+      res.status(500).json({ message: error });
+    }
+  });
 
 
 

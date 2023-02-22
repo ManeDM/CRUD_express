@@ -22,7 +22,7 @@ GET http://localhost:9000/api/movies HTTP/1.1
 
 
 ###
-GET http://localhost:9000/api/movies/63f4ca0f4fdb39c22173ac29 HTTP/1.1
+GET http://localhost:9000/api/movies/63f3ebae0dd2c0ced265beb8 HTTP/1.1
 
 
 ###
@@ -42,4 +42,4 @@ Content-type: application/json
 
 ###
 
-DELETE  http://localhost:9000/api/movies/63f4d7ff834c8704e8a258d2 HTTP/1.1
+DELETE  http://localhost:9000/api/movies/63f3ebae0dd2c0ced265beb8 HTTP/1.1
