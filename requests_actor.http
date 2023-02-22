@@ -3,12 +3,40 @@
 POST http://localhost:9000/api/actor HTTP/1.1
 Content-type: application/json
 
-{
-    "act_fname": "Arno",
-    "act_lname": "Frisch",
-    "act_gender": "Masculino"
+{   "act_id":"03",
+    "act_fname": "Andrew",
+    "act_lname": "Garfield",
+    "act_gender": "Marculino"
 }
 
 
-////////////////////////////////////////////////////////
+###
+
+GET http://localhost:9000/api/actor HTTP/1.1
+
+
+
+###
+GET http://localhost:9000/api/actor/63f6934f7d90cc5792550def HTTP/1.1
+
+
+###
+
+PUT http://localhost:9000/api/actor/63f6934f7d90cc5792550def HTTP/1.1
+Content-type: application/json
+
+{
+    "act_id": 3,
+    "act_fname": "Andrewww",
+    "act_lname": "Garfieldo",
+    "act_gender": "Masculino"
+   
+}
+
+
+
+###
+
+DELETE  http://localhost:9000/api/actor/63f6934f7d90cc5792550def" HTTP/1.1
+
 
