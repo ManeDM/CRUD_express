@@ -3,8 +3,8 @@
 POST http://localhost:9000/api/genres HTTP/1.1
 Content-type: application/json
 
-{   "gen_id": 2,
-    "gen_title": "comedi"
+{   "gen_id": 4,
+    "gen_title": "Thriller"
 }
 
 ###
@@ -16,12 +16,12 @@ GET http://localhost:9000/api/genres/63f7b27c18d58a3cc2509a59 HTTP/1.1
 
 ###
 
-PUT http://localhost:9000/api/genres/63f7b27c18d58a3cc2509a59  HTTP/1.1
+PUT http://localhost:9000/api/genres/63f7bc52994ea5335fe4b2cd  HTTP/1.1
 Content-type: application/json
 
 { 
-      "gen_id": 15,
-    "gen_title": "comedia"
+    "gen_id": 3,
+    "gen_title": "terror"
 }
 
 ###

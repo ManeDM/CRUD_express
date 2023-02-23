@@ -3,9 +3,10 @@
 POST http://localhost:9000/api/mcast HTTP/1.1
 Content-type: application/json
 
-{   "act_id": 10,
-    "mov_id": 10,
-    "role": "KKKKK"
+{  
+    "act_id": 9,
+    "mov_id": 11,
+    "role": "Spiderman"
     
 }
 
@@ -28,7 +29,7 @@ Content-type: application/json
 {
     "act_id": 5,
     "mov_id": 1,
-    "role": "Tony Starkkk"
+    "role": "Tony Stark"
    
 }
 
@@ -36,6 +37,6 @@ Content-type: application/json
 
 ###
 
-DELETE  http://localhost:9000/api/mcast/63f6a101cc1694d22e8beeae HTTP/1.1
+DELETE  http://localhost:9000/api/mcast/63f7c5b5c2e4866c4af11ce4 HTTP/1.1
 
 

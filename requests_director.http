@@ -28,6 +28,6 @@ Content-type: application/json
 
 ###
 
-DELETE  http://localhost:9000/api/director/63f79e4e046ba52696caed54 HTTP/1.1
+DELETE  http://localhost:9000/api/director/63f79994b903b2afceb19d1c HTTP/1.1
 
 

@@ -6,7 +6,6 @@ const actorRoutes = require('./routes/actor');
 const castmRoutes = require('./routes/movie_cast');
 const directorRoutes = require('./routes/director');
 const genresRoutes = require('./routes/genres');
-const genresRoutes = require('./routes/genres');
 const reviewerRoutes = require('./routes/reviewer');
 const ratingRoutes = require('./routes/rating');
 
