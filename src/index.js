@@ -3,7 +3,8 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 const userRoutes = require('./routes/movies');
 const actorRoutes = require('./routes/actor');
-const castmRoutes = require('./routes/movie_cast')
+const castmRoutes = require('./routes/movie_cast');
+const directorRoutes = require('./routes/director');
 
 
 const app = express();
@@ -14,7 +15,9 @@ const port = process.env.PORT || 9000;
 app.use(express.json());
 app.use('/api', userRoutes);
 app.use('/api', actorRoutes);
-app.use('/api', castmRoutes)
+app.use('/api', castmRoutes);
+app.use('/api', directorRoutes)
+
 
 
 
