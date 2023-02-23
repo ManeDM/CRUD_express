@@ -29,6 +29,6 @@ Content-type: application/json
 
 ###
 
-DELETE  http://localhost:9000/api/reviewer/63f7a4e8b3fead37d4b050a4 HTTP/1.1
+DELETE  http://localhost:9000/api/reviewer/63f7a7b787ed9a293301cb90 HTTP/1.1
 
 
