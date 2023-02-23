@@ -5,6 +5,7 @@ const userRoutes = require('./routes/movies');
 const actorRoutes = require('./routes/actor');
 const castmRoutes = require('./routes/movie_cast');
 const directorRoutes = require('./routes/director');
+const reviewerRoutes = require('./routes/reviewer');
 
 
 const app = express();
@@ -16,7 +17,8 @@ app.use(express.json());
 app.use('/api', userRoutes);
 app.use('/api', actorRoutes);
 app.use('/api', castmRoutes);
-app.use('/api', directorRoutes)
+app.use('/api', directorRoutes);
+app.use('/api', reviewerRoutes);
 
 
 
