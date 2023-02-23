@@ -4,8 +4,8 @@ POST http://localhost:9000/api/mgenres HTTP/1.1
 Content-type: application/json
 
 {
-    "mov_id": 1,
-    "gen_id": 2        
+    "mov_id": 14,
+    "gen_id": 21        
 }
 
 ###
@@ -15,17 +15,17 @@ GET http://localhost:9000/api/mgenres HTTP/1.1
 
 
 ###
-GET http://localhost:9000/api/mgenres/63f7d29b84cae9850ec12c62 HTTP/1.1
+GET http://localhost:9000/api/mgenres/63f7d1a084cae9850ec12c56 HTTP/1.1
 
 
 ###
 
-PUT http://localhost:9000/api/mgenres/63f7d2b084cae9850ec12c68 HTTP/1.1
+PUT http://localhost:9000/api/mgenres/63f7d1a084cae9850ec12c56 HTTP/1.1
 Content-type: application/json
 
 {
-    "mov_id": 1,
-    "gen_id": 90     
+    "mov_id": 11,
+    "gen_id": 11     
 }
 
 
