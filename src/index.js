@@ -6,6 +6,7 @@ const actorRoutes = require('./routes/actor');
 const castmRoutes = require('./routes/movie_cast');
 const directorRoutes = require('./routes/director');
 const genresRoutes = require('./routes/genres');
+const genresRoutes = require('./routes/genres');
 const reviewerRoutes = require('./routes/reviewer');
 const ratingRoutes = require('./routes/rating');
 
@@ -21,7 +22,8 @@ app.use('/api', userRoutes);
 app.use('/api', actorRoutes);
 app.use('/api', castmRoutes);
 app.use('/api', directorRoutes);
-app.use('/api', genresRoutes)
+app.use('/api', genresRoutes);
+app.use('/api', genresRoutes);
 app.use('/api', reviewerRoutes);
 app.use('/api', ratingRoutes)
 
