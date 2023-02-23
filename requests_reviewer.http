@@ -4,7 +4,7 @@ POST http://localhost:9000/api/reviewer HTTP/1.1
 Content-type: application/json
 
 {   
-    "rev_id": 3,
+    "rev_id": 4,
     "rev_name": "German"
     
 }
@@ -18,17 +18,17 @@ GET http://localhost:9000/api/reviewer/63f7a414030f0bcf9228dc25 HTTP/1.1
 
 ###
 
-PUT http://localhost:9000/api/reviewer/63f7a414030f0bcf9228dc25 HTTP/1.1
+PUT http://localhost:9000/api/reviewer/63f7c81fc2e4866c4af11cff HTTP/1.1
 Content-type: application/json
 
 {   
-    "rev_id": 2,
-    "rev_name": "TheCounterFilm"
+    "rev_id": 3,
+    "rev_name": "The Lumier Perspective"
     
 }
 
 ###
 
-DELETE  http://localhost:9000/api/reviewer/63f7a7b787ed9a293301cb90 HTTP/1.1
+DELETE http://localhost:9000/api/reviewer/63f7c89bc2e4866c4af11d04 HTTP/1.1
 
 

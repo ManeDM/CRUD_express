@@ -5,9 +5,9 @@ Content-type: application/json
 
 {   
     "mov_id": 1,
-    "rev_id": 3,
-    "rev_stars": 5,
-    "num_o_rating": 90
+    "rev_id": 1,
+    "rev_stars": 2,
+    "num_o_rating": 20
     
 }
 
@@ -27,12 +27,12 @@ Content-type: application/json
     "mov_id": 1,
     "rev_id": 2,
     "rev_stars": 4,
-    "num_o_rating": 85
+    "num_o_rating": 90
     
 }
 
 ###
 
-DELETE  http://localhost:9000/api/rating/63f7a89db71cfebfc4a7d192 HTTP/1.1
+DELETE  http://localhost:9000/api/rating/63f7c95cc2e4866c4af11d0e HTTP/1.1
 
 
