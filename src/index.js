@@ -8,7 +8,8 @@ const directorRoutes = require('./routes/director');
 const genresRoutes = require('./routes/genres');
 const reviewerRoutes = require('./routes/reviewer');
 const ratingRoutes = require('./routes/rating');
-const directionmRoutes = require('./routes/movie_direction')
+const directionmRoutes = require('./routes/movie_direction');
+const genresmRoutes = require('./routes/movie_genres');
 
 
 
@@ -25,7 +26,8 @@ app.use('/api', directorRoutes);
 app.use('/api', genresRoutes);
 app.use('/api', reviewerRoutes);
 app.use('/api', ratingRoutes);
-app.use('/api', directionmRoutes)
+app.use('/api', directionmRoutes);
+app.use('/api', genresmRoutes)
 
 
 
