@@ -20,11 +20,14 @@
 <p>Puedes utilizar Postman para hacer peticiones a la API. Aquí te dejo algunos ejemplos:</p>
 
 <h3>Obtener todas las películas</h3>
-<p><code>GET /peliculas</code></p>
+<p><code>GET /movies</code></p>
 
 <h3>Obtener una película por ID</h3>
-<p><code>GET /peliculas/:id</code></p>
+<p><code>GET /movies/:id</code></p>
 
 <h3>Crear una nueva película</h3>
-<p><code>POST /peliculas</code></p>
+<p><code>POST /movies</code></p>
+
+<h3>Elimina una nueva película</h3>
+<p><code>DELETE /movies</code></p>
 
