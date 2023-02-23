@@ -1,0 +1,31 @@
+###
+
+POST http://localhost:9000/api/genres HTTP/1.1
+Content-type: application/json
+
+{   "gen_id": 2,
+    "gen_title": "comedi"
+}
+
+###
+
+GET http://localhost:9000/api/genres HTTP/1.1
+
+###
+GET http://localhost:9000/api/genres/63f7b27c18d58a3cc2509a59 HTTP/1.1
+
+###
+
+PUT http://localhost:9000/api/genres/63f7b27c18d58a3cc2509a59  HTTP/1.1
+Content-type: application/json
+
+{ 
+      "gen_id": 15,
+    "gen_title": "comedia"
+}
+
+###
+
+DELETE  http://localhost:9000/api/genres/63f7bbe3994ea5335fe4b2c9 HTTP/1.1
+
+
