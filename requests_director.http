@@ -1,0 +1,33 @@
+###
+
+POST http://localhost:9000/api/director HTTP/1.1
+Content-type: application/json
+
+{   "dir_id": 6,
+    "dir_fname": "Janes",
+    "dir_lname": "Fondss"
+}
+
+###
+
+GET http://localhost:9000/api/director HTTP/1.1
+
+###
+GET http://localhost:9000/api/director/63f79994b903b2afceb19d1c HTTP/1.1
+
+###
+
+PUT http://localhost:9000/api/director/63f79994b903b2afceb19d1c HTTP/1.1
+Content-type: application/json
+
+{   
+    "dir_id": 4,
+    "dir_fname": "Jhane",
+    "dir_lname": "Fronda"
+}
+
+###
+
+DELETE  http://localhost:9000/api/director/63f79e4e046ba52696caed54 HTTP/1.1
+
+
